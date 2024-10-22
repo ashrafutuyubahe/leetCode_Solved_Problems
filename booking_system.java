@@ -23,7 +23,7 @@ class booking_system {
 
             try {
                 if (userChoice == 1) {
-                    System.out.println("Enter you age");
+                    System.out.println("Enter you age"); 
                     var userAge = userInput.nextInt();
                     if (userAge < 18) {
                         throw new Custom_invalid_age_exception(
