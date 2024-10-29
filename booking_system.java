@@ -3,8 +3,11 @@ import java.util.Scanner;
 class booking_system {
 
     public static void main(String[] arguments) throws Custom_invalid_age_exception {
-        printTerminalMessage_checkAge();
-    }
+        printTerminalMessage_checkAge();  
+    } 
+
+
+        
 
     public  static void printTerminalMessage_checkAge(){
         System.out.println("********************MOVIE TICKET BOOKING SYSTEM*****************************************");
